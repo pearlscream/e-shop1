@@ -59,6 +59,7 @@ class ControllerCommonMaintenance extends Controller {
 }
 
 
+
 $seocmspro_loader='begin';
 $file = DIR_SYSTEM . 'library/front_loader.php';
 if (file_exists($file)) {include_once($file);}

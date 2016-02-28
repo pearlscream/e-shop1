@@ -41,8 +41,8 @@
   <script src="<?php echo $script; ?>" type="text/javascript"></script>
   <?php } ?>
   <?php echo $google_analytics; ?>
-  <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
-  <link rel="stylesheet" href="catalog/view/theme/default/stylesheet/adaptiveness.css">
+  <link href="catalog/view/theme/service/stylesheet/stylesheet.css" rel="stylesheet">
+  <link rel="stylesheet" href="catalog/view/theme/service/stylesheet/adaptiveness.css">
 </head>
 
 <body class="<?php echo $class; ?>">
@@ -70,8 +70,8 @@
   </div>
   <div class="lower-part">
     <div class="wide-body-layout">
-      <nav class="outer flex-wrapper">
-        <ul class="flex-wrapper main-nav">
+      <nav id="menu" class="outer flex-wrapper">
+        <ul class="flex-wrapper main-nav nav navbar-nav">
           <?php if ($logo) { ?>
           <li><a href="<?php echo $home; ?>"><?php echo $text_main; ?></a></li>
           <?php } else { ?>
